@@ -49,7 +49,6 @@
 		0FE5F3AF1EFCB7B70087F8F8 /* ZHWaterFallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F3AC1EFCB7B70087F8F8 /* ZHWaterFallCell.m */; };
 		0FE5F3B01EFCB7B70087F8F8 /* ZHWaterFallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F3AE1EFCB7B70087F8F8 /* ZHWaterFallView.m */; };
 		0FE5F3B31EFCB8570087F8F8 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F3B21EFCB8570087F8F8 /* Item.m */; };
-		0FE5F3B61EFCBC7C0087F8F8 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F3B51EFCBC7C0087F8F8 /* ItemCell.m */; };
 		0FE5F3E61EFCBF0E0087F8F8 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F3BA1EFCBF0E0087F8F8 /* MJRefreshAutoFooter.m */; };
 		0FE5F3E71EFCBF0E0087F8F8 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F3BC1EFCBF0E0087F8F8 /* MJRefreshBackFooter.m */; };
 		0FE5F3E81EFCBF0E0087F8F8 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F3BE1EFCBF0E0087F8F8 /* MJRefreshComponent.m */; };
@@ -70,6 +69,13 @@
 		0FE5F3F71EFCBF0E0087F8F8 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F3E11EFCBF0E0087F8F8 /* UIScrollView+MJExtension.m */; };
 		0FE5F3F81EFCBF0E0087F8F8 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F3E31EFCBF0E0087F8F8 /* UIScrollView+MJRefresh.m */; };
 		0FE5F3F91EFCBF0E0087F8F8 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F3E51EFCBF0E0087F8F8 /* UIView+MJExtension.m */; };
+		0FE5F3FF1EFCC1F50087F8F8 /* CollectionViewFallVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F3FE1EFCC1F50087F8F8 /* CollectionViewFallVC.m */; };
+		0FE5F4021EFCE8050087F8F8 /* ZHWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F4011EFCE8050087F8F8 /* ZHWaterFallLayout.m */; };
+		0FE5F4081EFCE9560087F8F8 /* CustomFallVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F4051EFCE9560087F8F8 /* CustomFallVC.m */; };
+		0FE5F4091EFCE9560087F8F8 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F4071EFCE9560087F8F8 /* ItemCell.m */; };
+		0FE5F40C1EFCE9930087F8F8 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F40B1EFCE9930087F8F8 /* MyCollectionViewCell.m */; };
+		0FE5F40F1EFCF5540087F8F8 /* CollectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F40E1EFCF5540087F8F8 /* CollectionHeader.m */; };
+		0FE5F4121EFD028E0087F8F8 /* CollectionFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5F4111EFD028E0087F8F8 /* CollectionFooter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,8 +178,6 @@
 		0FE5F3AE1EFCB7B70087F8F8 /* ZHWaterFallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHWaterFallView.m; sourceTree = "<group>"; };
 		0FE5F3B11EFCB8570087F8F8 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 		0FE5F3B21EFCB8570087F8F8 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
-		0FE5F3B41EFCBC7C0087F8F8 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
-		0FE5F3B51EFCBC7C0087F8F8 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
 		0FE5F3B91EFCBF0E0087F8F8 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		0FE5F3BA1EFCBF0E0087F8F8 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		0FE5F3BB1EFCBF0E0087F8F8 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
@@ -214,6 +218,20 @@
 		0FE5F3E31EFCBF0E0087F8F8 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		0FE5F3E41EFCBF0E0087F8F8 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		0FE5F3E51EFCBF0E0087F8F8 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		0FE5F3FD1EFCC1F50087F8F8 /* CollectionViewFallVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewFallVC.h; sourceTree = "<group>"; };
+		0FE5F3FE1EFCC1F50087F8F8 /* CollectionViewFallVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewFallVC.m; sourceTree = "<group>"; };
+		0FE5F4001EFCE8050087F8F8 /* ZHWaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHWaterFallLayout.h; sourceTree = "<group>"; };
+		0FE5F4011EFCE8050087F8F8 /* ZHWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHWaterFallLayout.m; sourceTree = "<group>"; };
+		0FE5F4041EFCE9560087F8F8 /* CustomFallVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFallVC.h; sourceTree = "<group>"; };
+		0FE5F4051EFCE9560087F8F8 /* CustomFallVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFallVC.m; sourceTree = "<group>"; };
+		0FE5F4061EFCE9560087F8F8 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		0FE5F4071EFCE9560087F8F8 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		0FE5F40A1EFCE9930087F8F8 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		0FE5F40B1EFCE9930087F8F8 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		0FE5F40D1EFCF5540087F8F8 /* CollectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionHeader.h; sourceTree = "<group>"; };
+		0FE5F40E1EFCF5540087F8F8 /* CollectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionHeader.m; sourceTree = "<group>"; };
+		0FE5F4101EFD028E0087F8F8 /* CollectionFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionFooter.h; sourceTree = "<group>"; };
+		0FE5F4111EFD028E0087F8F8 /* CollectionFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionFooter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,14 +286,23 @@
 				0F9CED1C1EFBC3D300B8092B /* AppDelegate.m */,
 				0F9CED1E1EFBC3D300B8092B /* ViewController.h */,
 				0F9CED1F1EFBC3D300B8092B /* ViewController.m */,
+				0FE5F3FD1EFCC1F50087F8F8 /* CollectionViewFallVC.h */,
+				0FE5F3FE1EFCC1F50087F8F8 /* CollectionViewFallVC.m */,
+				0FE5F40A1EFCE9930087F8F8 /* MyCollectionViewCell.h */,
+				0FE5F40B1EFCE9930087F8F8 /* MyCollectionViewCell.m */,
+				0FE5F40D1EFCF5540087F8F8 /* CollectionHeader.h */,
+				0FE5F40E1EFCF5540087F8F8 /* CollectionHeader.m */,
+				0FE5F4101EFD028E0087F8F8 /* CollectionFooter.h */,
+				0FE5F4111EFD028E0087F8F8 /* CollectionFooter.m */,
+				0FE5F4001EFCE8050087F8F8 /* ZHWaterFallLayout.h */,
+				0FE5F4011EFCE8050087F8F8 /* ZHWaterFallLayout.m */,
 				0FE5F3B11EFCB8570087F8F8 /* Item.h */,
 				0FE5F3B21EFCB8570087F8F8 /* Item.m */,
-				0FE5F3B41EFCBC7C0087F8F8 /* ItemCell.h */,
-				0FE5F3B51EFCBC7C0087F8F8 /* ItemCell.m */,
-				0FE5F3AA1EFCB7B70087F8F8 /* ZHWaterFall */,
+				0FE5F4031EFCE9560087F8F8 /* CustomFall */,
 				0F9CEE2E1EFBC9BD00B8092B /* 1.plist */,
 				0F9CEE2F1EFBC9BD00B8092B /* 2.plist */,
 				0F9CEE301EFBC9BD00B8092B /* 3.plist */,
+				0FE5F3AA1EFCB7B70087F8F8 /* ZHWaterFall */,
 				0F9CEE241EFBC5D500B8092B /* Category */,
 				0F9CED4E1EFBC49A00B8092B /* Lib */,
 				0F9CED211EFBC3D300B8092B /* Main.storyboard */,
@@ -507,6 +534,17 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		0FE5F4031EFCE9560087F8F8 /* CustomFall */ = {
+			isa = PBXGroup;
+			children = (
+				0FE5F4041EFCE9560087F8F8 /* CustomFallVC.h */,
+				0FE5F4051EFCE9560087F8F8 /* CustomFallVC.m */,
+				0FE5F4061EFCE9560087F8F8 /* ItemCell.h */,
+				0FE5F4071EFCE9560087F8F8 /* ItemCell.m */,
+			);
+			path = CustomFall;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -659,10 +697,10 @@
 				0FE5F3F31EFCBF0E0087F8F8 /* MJRefreshStateHeader.m in Sources */,
 				0FE5F3E91EFCBF0E0087F8F8 /* MJRefreshFooter.m in Sources */,
 				0FE5F3AF1EFCB7B70087F8F8 /* ZHWaterFallCell.m in Sources */,
+				0FE5F4081EFCE9560087F8F8 /* CustomFallVC.m in Sources */,
 				0FE5F3F11EFCBF0E0087F8F8 /* MJRefreshGifHeader.m in Sources */,
 				0F9CEDB11EFBC49A00B8092B /* SDWebImageDecoder.m in Sources */,
 				0F9CEDBB1EFBC49A00B8092B /* UIImageView+WebCache.m in Sources */,
-				0FE5F3B61EFCBC7C0087F8F8 /* ItemCell.m in Sources */,
 				0F9CED201EFBC3D300B8092B /* ViewController.m in Sources */,
 				0FE5F3EF1EFCBF0E0087F8F8 /* MJRefreshBackNormalFooter.m in Sources */,
 				0F9CEDAE1EFBC49A00B8092B /* NSData+ImageContentType.m in Sources */,
@@ -680,18 +718,23 @@
 				0F9CEDBC1EFBC49A00B8092B /* UIView+WebCacheOperation.m in Sources */,
 				0FE5F3EE1EFCBF0E0087F8F8 /* MJRefreshBackGifFooter.m in Sources */,
 				0FE5F3E81EFCBF0E0087F8F8 /* MJRefreshComponent.m in Sources */,
+				0FE5F40F1EFCF5540087F8F8 /* CollectionHeader.m in Sources */,
 				0F9CEDB01EFBC49A00B8092B /* SDWebImageCompat.m in Sources */,
 				0F9CEE1E1EFBC55F00B8092B /* NSObject+MJProperty.m in Sources */,
+				0FE5F4121EFD028E0087F8F8 /* CollectionFooter.m in Sources */,
 				0F9CEDAD1EFBC49A00B8092B /* MKAnnotationView+WebCache.m in Sources */,
 				0F9CEDB51EFBC49A00B8092B /* SDWebImagePrefetcher.m in Sources */,
 				0F9CED1D1EFBC3D300B8092B /* AppDelegate.m in Sources */,
 				0F9CEDB31EFBC49A00B8092B /* SDWebImageDownloaderOperation.m in Sources */,
+				0FE5F3FF1EFCC1F50087F8F8 /* CollectionViewFallVC.m in Sources */,
+				0FE5F40C1EFCE9930087F8F8 /* MyCollectionViewCell.m in Sources */,
 				0F9CEDB41EFBC49A00B8092B /* SDWebImageManager.m in Sources */,
 				0FE5F3F81EFCBF0E0087F8F8 /* UIScrollView+MJRefresh.m in Sources */,
 				0FE5F3F71EFCBF0E0087F8F8 /* UIScrollView+MJExtension.m in Sources */,
 				0FE5F3F61EFCBF0E0087F8F8 /* NSBundle+MJRefresh.m in Sources */,
 				0F9CEDB91EFBC49A00B8092B /* UIImage+WebP.m in Sources */,
 				0F9CEE181EFBC55F00B8092B /* MJProperty.m in Sources */,
+				0FE5F4021EFCE8050087F8F8 /* ZHWaterFallLayout.m in Sources */,
 				0FE5F3EA1EFCBF0E0087F8F8 /* MJRefreshHeader.m in Sources */,
 				0FE5F3F01EFCBF0E0087F8F8 /* MJRefreshBackStateFooter.m in Sources */,
 				0FE5F3F21EFCBF0E0087F8F8 /* MJRefreshNormalHeader.m in Sources */,
@@ -699,6 +742,7 @@
 				0FE5F3F91EFCBF0E0087F8F8 /* UIView+MJExtension.m in Sources */,
 				0F9CEDAF1EFBC49A00B8092B /* SDImageCache.m in Sources */,
 				0FE5F3E61EFCBF0E0087F8F8 /* MJRefreshAutoFooter.m in Sources */,
+				0FE5F4091EFCE9560087F8F8 /* ItemCell.m in Sources */,
 				0FE5F3ED1EFCBF0E0087F8F8 /* MJRefreshAutoStateFooter.m in Sources */,
 				0F9CEE1D1EFBC55F00B8092B /* NSObject+MJKeyValue.m in Sources */,
 			);

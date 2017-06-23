@@ -8,7 +8,6 @@
 
 #import "ZHWaterFallView.h"
 
-
 #define ZHWaterFallViewDefaultCellH 70
 #define ZHWaterFallViewDefaultMargin 8
 #define ZHWaterFallViewDefaultNumberOfColumns 3
