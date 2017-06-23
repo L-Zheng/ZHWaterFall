@@ -42,7 +42,6 @@
 		0F9CEE1D1EFBC55F00B8092B /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9CEE111EFBC55F00B8092B /* NSObject+MJKeyValue.m */; };
 		0F9CEE1E1EFBC55F00B8092B /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9CEE131EFBC55F00B8092B /* NSObject+MJProperty.m */; };
 		0F9CEE1F1EFBC55F00B8092B /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9CEE151EFBC55F00B8092B /* NSString+MJExtension.m */; };
-		0F9CEE271EFBC5D500B8092B /* UIView+ZHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9CEE261EFBC5D500B8092B /* UIView+ZHExtension.m */; };
 		0F9CEE311EFBC9BD00B8092B /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F9CEE2E1EFBC9BD00B8092B /* 1.plist */; };
 		0F9CEE321EFBC9BD00B8092B /* 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F9CEE2F1EFBC9BD00B8092B /* 2.plist */; };
 		0F9CEE331EFBC9BD00B8092B /* 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F9CEE301EFBC9BD00B8092B /* 3.plist */; };
@@ -167,8 +166,6 @@
 		0F9CEE131EFBC55F00B8092B /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		0F9CEE141EFBC55F00B8092B /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		0F9CEE151EFBC55F00B8092B /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
-		0F9CEE251EFBC5D500B8092B /* UIView+ZHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZHExtension.h"; sourceTree = "<group>"; };
-		0F9CEE261EFBC5D500B8092B /* UIView+ZHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZHExtension.m"; sourceTree = "<group>"; };
 		0F9CEE2E1EFBC9BD00B8092B /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
 		0F9CEE2F1EFBC9BD00B8092B /* 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 2.plist; sourceTree = "<group>"; };
 		0F9CEE301EFBC9BD00B8092B /* 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 3.plist; sourceTree = "<group>"; };
@@ -303,7 +300,6 @@
 				0F9CEE2F1EFBC9BD00B8092B /* 2.plist */,
 				0F9CEE301EFBC9BD00B8092B /* 3.plist */,
 				0FE5F3AA1EFCB7B70087F8F8 /* ZHWaterFall */,
-				0F9CEE241EFBC5D500B8092B /* Category */,
 				0F9CED4E1EFBC49A00B8092B /* Lib */,
 				0F9CED211EFBC3D300B8092B /* Main.storyboard */,
 				0F9CED271EFBC3D300B8092B /* Assets.xcassets */,
@@ -417,15 +413,6 @@
 				0F9CEE151EFBC55F00B8092B /* NSString+MJExtension.m */,
 			);
 			path = MJExtension;
-			sourceTree = "<group>";
-		};
-		0F9CEE241EFBC5D500B8092B /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				0F9CEE251EFBC5D500B8092B /* UIView+ZHExtension.h */,
-				0F9CEE261EFBC5D500B8092B /* UIView+ZHExtension.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		0FE5F3AA1EFCB7B70087F8F8 /* ZHWaterFall */ = {
@@ -712,7 +699,6 @@
 				0FE5F3F51EFCBF0E0087F8F8 /* MJRefreshConst.m in Sources */,
 				0FE5F3B01EFCB7B70087F8F8 /* ZHWaterFallView.m in Sources */,
 				0FE5F3EB1EFCBF0E0087F8F8 /* MJRefreshAutoGifFooter.m in Sources */,
-				0F9CEE271EFBC5D500B8092B /* UIView+ZHExtension.m in Sources */,
 				0FE5F3B31EFCB8570087F8F8 /* Item.m in Sources */,
 				0F9CEDBA1EFBC49A00B8092B /* UIImageView+HighlightedWebCache.m in Sources */,
 				0F9CEDBC1EFBC49A00B8092B /* UIView+WebCacheOperation.m in Sources */,
