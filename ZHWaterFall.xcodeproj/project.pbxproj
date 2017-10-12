@@ -283,23 +283,13 @@
 				0F9CED1C1EFBC3D300B8092B /* AppDelegate.m */,
 				0F9CED1E1EFBC3D300B8092B /* ViewController.h */,
 				0F9CED1F1EFBC3D300B8092B /* ViewController.m */,
-				0FE5F3FD1EFCC1F50087F8F8 /* CollectionViewFallVC.h */,
-				0FE5F3FE1EFCC1F50087F8F8 /* CollectionViewFallVC.m */,
-				0FE5F40A1EFCE9930087F8F8 /* MyCollectionViewCell.h */,
-				0FE5F40B1EFCE9930087F8F8 /* MyCollectionViewCell.m */,
-				0FE5F40D1EFCF5540087F8F8 /* CollectionHeader.h */,
-				0FE5F40E1EFCF5540087F8F8 /* CollectionHeader.m */,
-				0FE5F4101EFD028E0087F8F8 /* CollectionFooter.h */,
-				0FE5F4111EFD028E0087F8F8 /* CollectionFooter.m */,
-				0FE5F4001EFCE8050087F8F8 /* ZHWaterFallLayout.h */,
-				0FE5F4011EFCE8050087F8F8 /* ZHWaterFallLayout.m */,
+				0FAD9F581F8F66AF00A430C8 /* SystemLayout */,
 				0FE5F3B11EFCB8570087F8F8 /* Item.h */,
 				0FE5F3B21EFCB8570087F8F8 /* Item.m */,
 				0FE5F4031EFCE9560087F8F8 /* CustomFall */,
 				0F9CEE2E1EFBC9BD00B8092B /* 1.plist */,
 				0F9CEE2F1EFBC9BD00B8092B /* 2.plist */,
 				0F9CEE301EFBC9BD00B8092B /* 3.plist */,
-				0FE5F3AA1EFCB7B70087F8F8 /* ZHWaterFall */,
 				0F9CED4E1EFBC49A00B8092B /* Lib */,
 				0F9CED211EFBC3D300B8092B /* Main.storyboard */,
 				0F9CED271EFBC3D300B8092B /* Assets.xcassets */,
@@ -415,6 +405,31 @@
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
+		0FAD9F581F8F66AF00A430C8 /* SystemLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0FE5F4001EFCE8050087F8F8 /* ZHWaterFallLayout.h */,
+				0FE5F4011EFCE8050087F8F8 /* ZHWaterFallLayout.m */,
+				0FE5F3FD1EFCC1F50087F8F8 /* CollectionViewFallVC.h */,
+				0FE5F3FE1EFCC1F50087F8F8 /* CollectionViewFallVC.m */,
+				0FAD9F591F8F66F100A430C8 /* View */,
+			);
+			path = SystemLayout;
+			sourceTree = "<group>";
+		};
+		0FAD9F591F8F66F100A430C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FE5F40A1EFCE9930087F8F8 /* MyCollectionViewCell.h */,
+				0FE5F40B1EFCE9930087F8F8 /* MyCollectionViewCell.m */,
+				0FE5F40D1EFCF5540087F8F8 /* CollectionHeader.h */,
+				0FE5F40E1EFCF5540087F8F8 /* CollectionHeader.m */,
+				0FE5F4101EFD028E0087F8F8 /* CollectionFooter.h */,
+				0FE5F4111EFD028E0087F8F8 /* CollectionFooter.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0FE5F3AA1EFCB7B70087F8F8 /* ZHWaterFall */ = {
 			isa = PBXGroup;
 			children = (
@@ -524,6 +539,7 @@
 		0FE5F4031EFCE9560087F8F8 /* CustomFall */ = {
 			isa = PBXGroup;
 			children = (
+				0FE5F3AA1EFCB7B70087F8F8 /* ZHWaterFall */,
 				0FE5F4041EFCE9560087F8F8 /* CustomFallVC.h */,
 				0FE5F4051EFCE9560087F8F8 /* CustomFallVC.m */,
 				0FE5F4061EFCE9560087F8F8 /* ItemCell.h */,
